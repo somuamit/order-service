@@ -21,7 +21,7 @@ public class OrderServiceApplication {
 
     @GetMapping
     public List<Order> fetchOrders() {
-        return orderDao.getOrders().stream());
+        return orderDao.getOrders();
     }
 
     public static void main(String[] args) {
